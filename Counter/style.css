@@ -1,0 +1,58 @@
+body {
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image: url('https://images.pexels.com/photos/122458/pexels-photo-122458.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+  font-family: 'Permanent Marker', cursive;
+    text-transform:capitalize;
+  
+    
+    
+  }
+  
+  #counter-box  {
+    
+    flex:0 0 70%;
+    text-align:center;
+    border:3px solid grey;
+   padding:1rem;
+    font-weight:bold;
+    box-shadow: 3px 3px 10px 10px black;
+    
+     
+    
+  }
+  
+  #counter {
+    font-size:6rem;
+  }
+  
+  .btn {
+    
+    background-color:#fff;
+    border-radius:8px;
+    font-size:2rem;
+    padding:0.5rem;
+    margin:0.5rem 0.25rem;
+    border:3px solid black;
+    box-shadow: 0px 5px #001221;
+    outline:none;
+    font-family: 'Permanent Marker', cursive;
+  
+  }
+  
+  .btn:hover {
+    background-color:#f7bf38;
+    color:black;
+    
+  }
+  
+  .btn:active {
+   box-shadow:none;
+    
+  }
